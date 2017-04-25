@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Krit</name>
+    <Style id="line-C2185B-10300-normal">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>10.3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-C2185B-10300-highlight">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>15.45</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-C2185B-10300">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-C2185B-10300-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-C2185B-10300-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Krit Lorraine</name>
+      <description>Kritische Zone Beispiel (künstlich)</description>
+      <styleUrl>#line-C2185B-10300</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          7.44048,46.9512153,0
+          7.440594,46.9514533,0
+          7.4407496,46.9517105,0
+          7.4409789,46.9520813,0
+          7.4413182,46.9526177,0
+          7.4414966,46.9529134,0
+          7.4415824,46.9530736,0
+          7.4417393,46.9533922,0
+          7.4419914,46.9538389,0
+          7.4422717,46.9543406,0
+          7.4427089,46.9550674,0
+          7.4428457,46.9553951,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
